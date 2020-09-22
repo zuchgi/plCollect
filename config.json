@@ -1,0 +1,26 @@
+{
+    "isDebug":"false",
+    "time": {
+        "telemetry": 30,
+        "reconnect": 20,
+        "report": 10
+    },
+    "redis": {
+        "host":"127.0.0.1",
+        "port":"6379",
+        "password":null
+    },
+    "db":{
+        "host":"127.0.0.1",
+        "port":"3306",
+        "user":"root",
+        "password":"cxl@2018",
+        "db_name": "pa-collection"
+    },
+    "dev":[
+        {
+            "DeviceName": "HB11PL674",
+            "modbus_slave_id": 1
+        }
+    ]
+}
